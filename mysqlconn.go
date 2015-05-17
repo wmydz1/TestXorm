@@ -24,7 +24,7 @@ type Xorm struct {
 }
 func initHelper() {
     var err error
-    engine, err =xorm.NewEngine("mysql", "root:chen1994@/test?charset=utf8")
+    engine, err =xorm.NewEngine("mysql", "root:xxxxx@/test?charset=utf8")
     if err!=nil {
         fmt.Println(err)
     }
